@@ -4687,3 +4687,29 @@ input, select, textarea {
 		}
 
 	}
+
+
+/* ABOUT US Team CSS Styling */
+.developer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.headshot{
+	flex: 0 0 auto;
+    padding: 10px;
+    margin-right: 20px;
+}
+.headshot img {
+	max-width: 300px;
+	max-height: 300px;
+	width: 225px;
+	height: auto;
+    border-radius: 20px; /* Optional: rounds the corners */
+}
+
+.developer-description {
+    flex-grow: 1;
+	align-self: flex-start;
+	padding-top: 30px;
+}
