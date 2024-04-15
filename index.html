@@ -13,6 +13,20 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<style>
+		.video-container {
+			position: relative;
+			padding-bottom: 56.25%; /* 16:9 */
+			height: 0;
+		  }
+		  .video-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		  }
+	</style>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -57,7 +71,9 @@
 									<p>Through ATLAS, our mission is to seamlessly blend community engagement with fitness, fostering a vibrant ecosystem where users can curate, track, and share their personalized workouts. By empowering individuals to create and discover inspiring routines, we eradicate the monotony of exercise, ensuring endless motivation and connection at their fingertips.</p>
 								</header>
 
-								<iframe width="720" height="405" src="https://www.youtube.com/embed/k5kNijuat_A?si=BfIs8rZf2k8Pvuka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								<div class="video-container">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/k5kNijuat_A?si=BfIs8rZf2k8Pvuka" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
 
 								<br><br>
 
